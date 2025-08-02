@@ -1,0 +1,44 @@
+* {
+    box-sizing: border-box;
+}
+
+.page {
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    background-color: white;
+    
+}
+
+.search {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    
+}
+
+.results {
+    display: none;
+    grid-template-rows: 1fr 1fr;
+}
+
+.city-temp-img {
+    display: flex;
+    justify-content: center;
+}
+
+.city-temp {
+    width: 100%;
+    max-width: 300px;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+.night {
+    background-color: #1e1e1e;
+    color: white;
+}
+
